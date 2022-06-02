@@ -1,0 +1,28 @@
+body, html{
+    margin: 0px;   
+}
+
+.boardField{
+    position: static;
+    display: block;
+    min-width: 95px;
+    min-height: 95px;
+    max-width: 95px;
+    max-height: 95px;
+    border: 1px solid black;
+}
+
+#boardContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.boardRow{
+    position: static;
+    display: flex;
+    flex-direction: row;
+}
+
+.isWater{
+    background: #d4f1f9;
+}
